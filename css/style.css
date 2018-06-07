@@ -1,0 +1,68 @@
+html,body{
+	padding:0;
+	margin:0;
+	height:100%;
+	width:100%;
+	background-color:#999;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+
+}
+
+artycle{
+	display:block;
+	height:100%;
+	width:50%;
+	background:#cfcfcf;
+	margin: 0 auto;
+}
+artycle form h2{
+	text-align:center;
+}
+artycle form{
+	height:100%;
+	background:#cfcfcf;
+}
+artycle form .campo img{
+	border-radius:20px;
+}
+.campo{
+	margin:15px auto;
+	width:100%;
+	text-align:center;
+		background:#cfcfcf;
+
+}
+.campo input{
+	border-radius:15px;
+	width:80%;
+	height:30px;
+	border:1.5px solid transparent;
+	border-color: #1816a78f;
+	outline:none;
+	text-align:center;
+}
+.campo input:focus{
+	box-shadow: 0 0 5px #1816a78f;
+}
+.campo input[type="submit"]{
+	margin-top:20px;
+	border-radius:15px;
+	width:50%;
+	height:30px;
+
+}
+.campo input[type="submit"]:hover{
+	background-color:#1816a78f;
+}
+
+.campo input[type="reset"]{
+	margin-top:20px;
+	border-radius:15px;
+	width:50%;
+	height:30px;
+
+}
+.campo input[type="reset"]:hover{
+	background-color:#1816a78f;
